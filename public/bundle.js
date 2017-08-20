@@ -25607,10 +25607,9 @@
 
 	var React = __webpack_require__(1);
 
-	var WeatherMessage = function WeatherMessage(props) {
-	  var _props = undefined.props,
-	      temp = _props.temp,
-	      location = _props.location;
+	var WeatherMessage = function WeatherMessage(_ref) {
+	  var temp = _ref.temp,
+	      location = _ref.location;
 
 	  return React.createElement(
 	    'h3',
